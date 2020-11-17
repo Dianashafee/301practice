@@ -1,0 +1,17 @@
+*{
+    color: rebeccapurple;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.fav-div{
+background-color: rgb(209, 207, 211);
+border-radius: 5px;
+height: 200px;
+width: 500px;
+padding: 3% 3% 3% 3%;
+
+}
+form{
+    border: 5px solid black;
+}

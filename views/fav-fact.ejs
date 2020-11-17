@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/base.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HERE IS UR FAV FACTS ^.^</h2>
+    <br>
+    <br>
+    <div class="fav-div">  
+    <%result.forEach(element =>{ %>
+        <h3>Type: <%= element.type%></h3>
+        <p>Text: <%= element.text%></p>
+       </br>
+
+       <a href="/facts/<%=element.id%>">View Details</a>
+       <% })%>
+    </div>
+</body>
+</html>
